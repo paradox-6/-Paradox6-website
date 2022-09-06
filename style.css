@@ -2,7 +2,7 @@
 padding: 0;
 }
 .header{
-    min-height: 250vh;
+    min-height: 210vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/Paradox\ E&I\ Profile_Page_01_Image_0001.jpg);
     background-size: cover;
@@ -85,8 +85,18 @@ nav img{
 nav .fa{
     display:none;
 }
-
-
+.row_body{
+  margin-top: 5%;
+  display:flex;
+  justify-content: space-between;
+  
+}
+.col-row{
+  flex-basis: 50%;
+  background: transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
 
 /*-------------------------------------------------------small screen-------------------------------------------*/
 
@@ -121,6 +131,9 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    .row{
+      flex-direction: column;
+  }
     
 } 
 /*--------------------------------------------------------footer-------------------------------------------------*/
