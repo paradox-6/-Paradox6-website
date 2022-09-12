@@ -72,10 +72,7 @@
     .text-box{
         width:90%;
         color: #fff;
-        position: absolute;
-        top:60%;
-        left: 50%;
-        transform:translate(-50%,-50%);
+        padding-left: 5%;
         text-align: center;
     }
     .text-box h1{
@@ -105,9 +102,7 @@
     nav .fa{
         display:none;
     }
-    hr{
-      height:170px
-    }
+    
     
     /*-------------------------------------------------------small screen-------------------------------------------*/
     
@@ -126,8 +121,8 @@
             position: absolute;
             border-color: black;
             border-width: 1px;
-            background: transparent;
-            height: 100vh;
+            background:#33353d;
+            height: 35vh;
             width: 200px;
             top: 0;
             right: -200px;
@@ -147,6 +142,10 @@
         }
         .row{
             flex-direction: column;
+        }
+        @media(max-height:300px){
+
+          .header3{ min-height: 100vh;}
         }
     } 
     /*--------------------------------------------------------footer-------------------------------------------------*/
