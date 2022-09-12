@@ -2,7 +2,7 @@
 padding: 0;
 }
 .header{
-    min-height: 210vh;
+    min-height: 220vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/Paradox\ E&I\ Profile_Page_01_Image_0001.jpg);
     background-size: cover;
@@ -51,20 +51,26 @@ nav img{
 }
 .text-box{
     width:90%;
+    padding-left: 5%;
     color: #fff;
-    position: absolute;
-    top:53%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    text-align: center;
+    
 }
 .text-box h1{
     font-size: 62px;
+    text-align: center;
+}
+.text-box h2{
+  text-align: center;
+}
+.text-box h3{
+  text-align: center;
+}
+.text-box li{
+  padding-left: 20px;
 }
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
+    margin: 10px 0 20px;
+   
 }
 .hero-btn{
     display: inline-block;
@@ -100,10 +106,16 @@ nav .fa{
 
 /*-------------------------------------------------------small screen-------------------------------------------*/
 
-@media(max-width:700px){
+@media(max-width:800px){
     
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-box h2{
+      font-size: 18px;
+    }
+    .text-box h3{
+    font-size: 17px;
     }
     .nav-links ul li{
         display: block;
@@ -112,8 +124,8 @@ nav .fa{
         position: absolute;
         border-color: black;
         border-width: 1px;
-        background: transparent;
-        height: 100vh;
+        background:#33353d;
+        height: 35vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -131,9 +143,13 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-    .row{
+    .row_body{
       flex-direction: column;
-  }
+    }
+  
+    hr{
+    display:none;
+    }
     
 } 
 /*--------------------------------------------------------footer-------------------------------------------------*/

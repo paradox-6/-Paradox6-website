@@ -2,7 +2,7 @@
     padding: 0;
     }
     .header2{
-        min-height: 200vh;
+        min-height: 100vh;
         width: 100%;
         background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/Paradox\ E&I\ Profile_Page_06_Image_0001.jpg);
         background-size: cover;
@@ -52,32 +52,26 @@
     .text-box2{
         width:90%;
         color: #fff;
-        position: absolute;
-        top:55%;
-        left: 50%;
-        transform:translate(-50%,-50%);
+        padding-left: 5%;
+
         
     }
     .text-box2 h1{
-        font-size: 62px;
+        font-size: 50px;
         text-align: center;
     }
     .text-box2 h2{
       text-align: center;
     }
-    .text-box2 p{
-        margin: 10px 0 40px;
-        font-size: 16px;
-        color: #fff;
+    .text-box2 li{
+      padding-left: 30px;
     }
-    .services{
-      padding: 0px 150px;
-    }
+    
     .rows{
       margin-top: 5%;
       display:flex;
       justify-content: space-between;
-   }
+    }
     .col_about{
       flex-basis: 30%;
       padding:0px 5px;
@@ -106,11 +100,8 @@
     }
     /*-------------------------------------------------------small screen-------------------------------------------*/
     
-    @media(max-width:700px){
-        .header2{
-          min-height:300vh
-          
-        }
+    @media(max-width:800px){
+        
         .text-box2 h1{
             font-size: 20px;
         }
@@ -121,8 +112,8 @@
             position: absolute;
             border-color: black;
             border-width: 1px;
-            background: transparent;
-            height: 100vh;
+            background:#33353d;
+            height: 35vh;
             width: 200px;
             top: 0;
             right: -200px;

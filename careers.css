@@ -52,10 +52,7 @@ nav img{
 .text-box{
     width:90%;
     color: #fff;
-    position: absolute;
-    top:53%;
-    left: 50%;
-    transform:translate(-50%,-50%);
+    padding-left: 5%;
     text-align: center;
 }
 .text-box h1{
@@ -104,8 +101,8 @@ nav .fa{
         position: absolute;
         border-color: black;
         border-width: 1px;
-        background: transparent;
-        height: 100vh;
+        background:#33353d;
+        height: 35vh;
         width: 200px;
         top: 0;
         right: -200px;
